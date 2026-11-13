@@ -1,0 +1,66 @@
+# ============================================
+# Ignore all datasets, media, models, & archives
+# ============================================
+
+# Media & Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Image datasets & generated images
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.tiff
+
+# Archives & Datasets
+*.zip
+*.rar
+*.tar
+*.gz
+*.7z
+
+# Deep learning weights & models
+*.caffemodel
+*.prototxt
+*.pb
+*.pbtxt
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Data outputs & tables
+*.csv
+*.tsv
+
+# Dataset directories
+test/
+train/
+noisy_images/
+filtered_images/
+original_images/
+resized_chars/
+segmented_chars/
+Mapset/
+assets/
+model/
+models/
+
+# ============================================
+# General development ignores
+# ============================================
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+venv/
+env/
+.DS_Store
+Thumbs.db
